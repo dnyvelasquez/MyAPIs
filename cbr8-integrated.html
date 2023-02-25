@@ -20,10 +20,14 @@
         },
         {
             "id": "2",
-            "name": "Integrated description",
+            "name": "Integrated delete",
             "commands": "
                 controller Integrated Cable slot/0/port\n
-                description downDesc\n
+                shutdown\n
+                max-carrier xcarrier\n
+                base-channel-power xpower\n
+                no rf-chan 0-47\n
+            exit
             "
         }
     ]"
