@@ -24,9 +24,3 @@ li a {
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
-
-.api {
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    font-size: 1.5rem;
-}
