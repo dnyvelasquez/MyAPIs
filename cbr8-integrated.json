@@ -64,6 +64,28 @@
             " no shutdown",
             "exit"
         ]
+    },
+    {
+        "id": "4",
+        "name": "Integrated MDE x 40",
+        "commands": [
+            "controller Integrated Cable slot/0/port",
+            " rf-can 0 18",
+            "  frequency 501000000",
+            " exit",
+            " rf-can 19 32",
+            "  frequency 621000000",
+            " exit",
+            " rf-can 33 37",
+            "  frequency 729000000",
+            " exit",
+            " rf-can 38 47",
+            "  frequency 801000000",
+            " exit",
+            " description downDesc",
+            " no shutdown",
+            "exit"
+        ]
     }
 ]
 
