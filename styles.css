@@ -1,0 +1,26 @@
+* {
+    font-size: 62.5%;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 50px;    
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
